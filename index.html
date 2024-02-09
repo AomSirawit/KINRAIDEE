@@ -4,49 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KINRAIDEE</title>
-
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo2.png" type="image/png">
+    <link rel="shortcut icon" href="logo2.png" type="image/png">
+
 </head>
 <body>
     <div class="selection">
         <div class="navbar">
             <div class="image1">
-            <img src="logo1.png" alt="">
+                <img src="logo1.png" alt="">
             </div>
         </div>
-    <div class="selectgroup">
-        <div class="taste">
-            <select  id="taste">
-                <option value="chillies">เผ็ดๆ</option>
-                <option value="sweet">หวาน&มัน</option>
-                <option value="spices">หอมเครื่องเทศ</option>
-                <option value="zab">แซ่บอีสาน</option>
-            </select>
+        <div class="selectgroup">
+            <div class="taste">
+                <select id="taste">
+                    <option value="chillies">เผ็ดๆ</option>
+                    <option value="sweet">หวาน&มัน</option>
+                    <option value="spices">หอมเครื่องเทศ</option>
+                    <option value="zab">แซ่บอีสาน</option>
+                </select>
+            </div>
+            <div class="region">
+                <select name="" id="region">
+                    <option value="north">เหนือ</option>
+                    <option value="south">ใต้</option>
+                    <option value="esan">อีสาน</option>
+                    <option value="mid">กลาง</option>
+                    <option value="other">อื่นๆ</option>
+                </select>
+            </div>
+            <div class="type">
+                <select name="" id="type">
+                    <option value="soup">ต้ม</option>
+                    <option value="puff">ผัด</option>
+                    <option value="curry">แกง</option>
+                    <option value="fries">ทอด</option>
+                </select>
+            </div>
         </div>
-        <div class="region">
-            <select name="" id="">
-                <option value="">เหนือ</option>
-                <option value="">ใต้</option>
-                <option value="">อีสาน</option>
-                <option value="">กลาง</option>
-                <option value="">อื่นๆ</option>
-            </select>
-        </div>
-        <div class="type">
-            <select name="" id="">
-                <option value="soup">ต้ม</option>
-                <option value="puff">ผัด</option>
-                <option value="curry">แกง</option>
-                <option value="fries">ทอด</option>
-            </select>
-        </div>
-    </div>
-
-        <button id="save"><h2>สร้างเมนู</h2></button>
+        <button id="save" onclick="predict()"><h2>สร้างเมนู</h2></button>
         <div class="result-box">
             <p id="result">test</p>
         </div>
     </div>
-    <script src="script"></script>
+    <script src="script.js"></script>
 </body>
 </html>
