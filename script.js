@@ -29,7 +29,7 @@ function predict() {
     }
     else
     {
-        displayResult("No Matching dish found");
+        displayResult("No Matching Menu Found!!");
     }
 }
 
