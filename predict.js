@@ -1,11 +1,24 @@
 function predict() {
+    const MenuData = {
+        cns: "",
+        cnp: "",
+        cnc: "",
+        cnf: "",
+        css: "",
+        csp: "",
+        csf: "",
+        ces: "",
+        cep: "",
+        
+
+    }
     // Get selected options
-    var taste = document.getElementById("taste").value;
-    var region = document.getElementById("region").value;
-    var type = document.getElementById("type").value;
+    let taste = document.getElementById("taste").value;
+    let region = document.getElementById("region").value;
+    let type = document.getElementById("type").value;
 
     // Decision tree to predict food menu
-    var result = "";
+    let result = "";
 
     if (taste === "chillies") {
         if (region === "north") {
