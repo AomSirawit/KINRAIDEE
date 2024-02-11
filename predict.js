@@ -52,7 +52,7 @@ function predict() {
 
     // Decision tree to predict food menu
     let result = "";
-
+    //chillies
     if (taste === "chillies") {
         if (region === "north") {
             if (type === "soup") {
@@ -96,6 +96,7 @@ function predict() {
             }
         }
         
+    //sweet
     } else if (taste === "sweet") {
         if (region === "north") {
             if (type === "soup") {
