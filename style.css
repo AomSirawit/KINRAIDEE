@@ -118,4 +118,7 @@ button {
         width: 100%; /* Adjusted for smaller screens */
         max-width: none; /* Reset max-width */
     }
+    .selectgroup{
+        width: 100%;
+    }
 }

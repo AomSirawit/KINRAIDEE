@@ -31,7 +31,7 @@ function predict() {
             wss: "ขนมจีนน้ำยาถั่ว",
             wsp: "ใบเหลียงผัดไข่",
             wsy: "ข้าวยำใต้",
-            wsf: "ไก่ทอดหาดใหญ่ + น้ำจิ้มไก่ , หมูโคะ",
+            wsf: "หมูโคะ",
     
             wes: "ต้มไข่ผำ",
             wep: "ผัดขิงกุ้งสด",
@@ -122,11 +122,11 @@ function predict() {
             if (type === "soup") {
                 result = MenuData.wss;
             } else if (type === "puff") {
-                result = MenuData.wsp;
+                result = MenuData.wep;
             } else if (type === "yum") {
-                result = MenuData.wsy;
+                result = MenuData.wey;
             } else if (type === "fries") {
-                result = MenuData.wsf;
+                result = MenuData.wef;
             }
         } else if (region === "mid") {
             if (type === "soup") {
